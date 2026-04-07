@@ -8,16 +8,17 @@ This repository documents my ongoing journey of building a fully functional, pro
 
 The project is heavily inspired by the incredible [Ben Eater 8-bit CPU tutorial series](https://eater.net/8bit), taking the theoretical concepts of computer architecture and applying them in the physical world.
 
-## 🚀 Current Status: RAM Module (In Progress)
-The build is currently halfway through. I have successfully designed, wired, and tested the core computational components and am currently finalizing the Random Access Memory (RAM) module to enable data storage.
+## 🚀 Current Status: Program Counter (In Progress)
+The build is officially past the halfway mark! I have successfully wired and tested the core computational components, and I just completed the Random Access Memory (RAM) module. Next up is routing the Program Counter.
 
 ### ✅ Completed Modules:
 * **Clock Module:** Built with 555 timers. Features an adjustable clock speed and a manual step mode for debugging.
 * **Registers (A, B, and Instruction Register):** 8-bit registers built using 74LS173 D-type flip-flops and 74LS245 bus transceivers for reading/writing to the main bus.
-* **Arithmetic Logic Unit (ALU):** Capable of adding and subtracting 8-bit numbers using 74LS283 adders and XOR gates. 
+* **Arithmetic Logic Unit (ALU):** Capable of adding and subtracting 8-bit numbers using 74LS283 adders and XOR gates.
+* * **RAM Module & Memory Address Register (MAR):** Integrating SRAM chips (like the 74189) and multiplexers to store and retrieve data/instructions. 
 
 ### 🚧 Currently Working On:
-* **RAM Module & Memory Address Register (MAR):** Integrating SRAM chips (like the 74189) and multiplexers to store and retrieve data/instructions. 
+* **Program Counter (PC):** Keeping track of the current instruction address to feed into the memory.
 
 ## 📸 Gallery
 ![20250826_230616](https://github.com/user-attachments/assets/36e5caca-76e3-4fce-9281-3e2e0c0bea64)
