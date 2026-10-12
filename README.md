@@ -7,6 +7,7 @@
 This repository documents my ongoing journey of building a fully functional, programmable 8-bit computer from scratch using basic TTL logic chips and breadboards. 
 
 The project is heavily inspired by the incredible [Ben Eater 8-bit CPU tutorial series](https://eater.net/8bit), taking the theoretical concepts of computer architecture and applying them in the physical world.
+![20261012](Overview_images/overview_2026_10_12.jpg)
 
 ## 🚀 Current Status: Flags Register (In Progress)
 The core of the computer is wired and working: clock, registers, ALU, RAM, program counter, output display and the EEPROM-based control logic. I'm now building the Flags Register, which stores the Carry and Zero flags.
